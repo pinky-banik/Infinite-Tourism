@@ -1,0 +1,49 @@
+.bookings {
+  padding-top: 20px;
+  padding-left: 30px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.sidebar {
+  margin-left: 30px;
+}
+.logo img {
+  width: 120px;
+}
+.link,
+.link:hover {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.booking-link {
+  color: indigo;
+}
+.user__name {
+  padding-right: 50px;
+}
+.goHome {
+  margin-top: 350px;
+}
+.dashboard__content {
+  background: #f4f7fc;
+  height: 100%;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  margin-top: 10px;
+}
+.table__content {
+  background: #fff;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+.tableRow {
+  background: #f5f6fa;
+  border-radius: 13px !important;
+}
+.status {
+  border: none;
+  outline: none;
+}

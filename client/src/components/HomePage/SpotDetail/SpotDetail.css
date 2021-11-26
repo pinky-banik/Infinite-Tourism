@@ -1,0 +1,29 @@
+.spotWrapper{
+    height: 300px;
+    position: relative;
+}
+.spotInner{
+    position: relative;
+    z-index: 555;
+    color: white;
+}
+.spotWrapper:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2222;
+    background-image: url('../../../images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.spotOverlay {
+    position: absolute;
+    background: #000000c9;
+    width: 100%;
+    height: 300px;
+    top: 0;
+    z-index: -2221;
+}

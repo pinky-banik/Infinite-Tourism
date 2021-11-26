@@ -1,0 +1,37 @@
+.authCard{
+    padding: 30px 40px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 5px;  
+}
+.authBtn{
+    border: 1px solid black !important;
+    border-radius: 30px !important;
+    width: 350px;
+}
+.authBtn img{
+    height: 30px;
+    padding-right: 45px;
+}
+
+
+/* just for google sign in */
+.login-card{
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 120px;
+}
+.login-card h3{
+    font-weight: 700;
+}
+.login-card button{
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+}
+.login-card button img{
+    height: 30px;
+}
